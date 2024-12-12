@@ -1,0 +1,3 @@
+interface Earrings {
+    void buy();
+}
