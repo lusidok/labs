@@ -1,9 +1,9 @@
 public abstract class GameObject {
     // главный класс, от которого пойдет наследование
-    public int Id;
-    public String Name;
-    public int X;
-    public int Y;
+    private int Id;
+    private String Name;
+    private int X;
+    private int Y;
 
     public int getId(){
         return Id;
@@ -20,7 +20,6 @@ public abstract class GameObject {
     public void setX(int x) {
         X = x;
     };
-
     public void setY(int y) {
         Y = y;
     };

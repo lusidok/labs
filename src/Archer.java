@@ -1,4 +1,4 @@
-public abstract class Archer extends Unit implements Attacker, Moveable {
+public class Archer extends Unit implements Attacker, Moveable {
     @Override
     public void attack(Unit unit) {
         if(isAlive()) {

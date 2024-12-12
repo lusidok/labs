@@ -1,5 +1,5 @@
 public abstract class Building extends GameObject {
-    public boolean Built;
+    boolean Built;
 
     public boolean isBuilt(){
         if (Built)

@@ -1,7 +1,7 @@
 public abstract class Unit extends GameObject {
-    public boolean Alive;
-    public float Hp;
-    public float damage;
+    private boolean Alive;
+    private float Hp;
+    private float damage;
 
     public boolean isAlive(){
         if (Hp > 0)
